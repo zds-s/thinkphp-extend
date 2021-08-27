@@ -1,0 +1,31 @@
+{
+    "name": "death_satan/thinkphp-extend",
+    "description": "thinkphp6 extend [command,extend,vendor_publish,service]",
+    "type": "library",
+    "homepage": "https://www.cnblogs.com/death-satan",
+    "license": "MIT",
+    "keywords": ["thinkphp6","thinkphp composer组件扩展包"],
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "death-satan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SaTan\\Think\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "\\SaTan\\Think\\ThinkService"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
